@@ -51,6 +51,6 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
    
    4.2. work with failed tests: suggest changes in source code, list problems for each failing function, implement changes and test with kontrol - do formal verification.
    
-   4.3. Create report (README: https://github.com/klausnat/liquid-staking-audit-report/tree/main) 
+   4.3. Create report (https://github.com/klausnat/liquid-staking-audit-report/blob/main/LiquidStaking_Audit_Report.md) 
         with a table of contents and a list of all tests performed, errors found, and suggestions... with appendix where all results are printed. like the one we would provide for the code audit
    
