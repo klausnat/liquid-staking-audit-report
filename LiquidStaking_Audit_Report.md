@@ -147,7 +147,7 @@ Fuzzing Test Results
 
     Gas Limit Exceeded: 134 cases on complex heap operations
 
-Formal Verification
+## Formal Verification
 
 Kontrol Verification Status
 
@@ -166,5 +166,17 @@ kontrol view-kcfg
 # Symbolic execution results
 
 kontrol 
+
+@TODO
+
+## Recommended Plan
+
+@TODO
+
+## Conclusion
+
+@TODO
+
+## Appendix
 
 @TODO

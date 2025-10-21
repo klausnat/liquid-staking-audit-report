@@ -46,8 +46,11 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
     }
 
 4. We have a lot of issues to be fixed, so plan for the further work is the next:
+   
    4.1. work with successfull tests: each successfull test should be also checked with fuzzing tests and kontrol (we know that symbolic executin covers more cases, so formal verification required on top of foundry tests)
+   
    4.2. work with failed tests: suggest changes in source code, list problems for each failing function, implement changes and test with kontrol - do formal verification.
+   
    4.3. Create report (README: https://github.com/klausnat/liquid-staking-audit-report/tree/main) 
         with a table of contents and a list of all tests performed, errors found, and suggestions... with appendix where all results are printed. like the one we would provide for the code audit
    
