@@ -15,7 +15,6 @@ keywords: [Blockchain, Security, Audit, Solidity, Foundry, Kontrol]
 **Auditor:** Natalie Klaus  
 **Date:** October 21, 2025  
 **Contract:** LiquidStaking.sol  
-**Commit Hash:** [Specify if applicable]  
 **Tools Used:** Foundry, Kontrol, Manual Code Review
 
 ---
