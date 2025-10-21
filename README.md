@@ -1,66 +1,54 @@
-## Foundry
+---
+title: "Smart Contract Security Audit Report"
+author: "Your Name"
+date: "2024-01-15"
+subject: "LiquidStaking Contract Security Assessment"
+keywords: [Blockchain, Security, Audit, Solidity, Foundry, Kontrol]
+---
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+# Smart Contract Security Audit Report
+## LiquidStaking Contract
 
-Foundry consists of:
+![Audit Status](https://img.shields.io/badge/Audit-Complete-green) 
+![Security Score](https://img.shields.io/badge/Security_Score-65%2F100-orange)
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+**Auditor:** Natalie Klaus
+**Date:** October 21, 2025  
+**Contract:** LiquidStaking.sol  
+**Commit Hash:** [Specify if applicable]  
+**Tools Used:** Foundry, Kontrol, Manual Code Review
 
-## Documentation
+---
 
-https://book.getfoundry.sh/
+## Executive Summary
 
-## Usage
+This security assessment of the LiquidStaking smart contract identified several critical vulnerabilities including arithmetic overflows, logical inconsistencies in withdrawal processing, and access control issues. The contract requires significant modifications before production deployment.
 
-### Build
+### Key Findings
+- **5 Critical** issues identified
+- **18/23** tests passing initially
+- **Security Score:** 65/100
+- **Recommendation:** Do not deploy in current state
 
-```shell
-$ forge build
-```
+## Table of Contents
 
-### Test
+1. [Methodology](#methodology)
+2. [Critical Findings](#critical-findings)
+3. [Test Results](#test-results)
+4. [Formal Verification](#formal-verification)
+5. [Remediation Plan](#remediation-plan)
+6. [Conclusion](#conclusion)
+7. [Appendix](#appendix)
 
-```shell
-$ forge test
-```
+## Methodology
 
-### Format
+### Testing Framework
+- **Foundry 0.2.0**: Unit testing and fuzzing
+- **Kontrol 1.0.0**: Formal verification
+- **Manual Review**: Line-by-line analysis
 
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+### Scope
+```solidity
+// Contracts in scope
+- LiquidStaking.sol
+- All test files
