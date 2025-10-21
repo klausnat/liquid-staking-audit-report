@@ -1,5 +1,5 @@
 Created draft for report:
-https://github.com/klausnat/liquid-staking-audit-report/tree/main
+https://github.com/klausnat/liquid-staking-audit-report/blob/main/LiquidStaking_Audit_Report.md
 
 1. installed foundry kup and kontrol
 
