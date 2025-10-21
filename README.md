@@ -12,7 +12,7 @@ keywords: [Blockchain, Security, Audit, Solidity, Foundry, Kontrol]
 ![Audit Status](https://img.shields.io/badge/Audit-Complete-green) 
 ![Security Score](https://img.shields.io/badge/Security_Score-65%2F100-orange)
 
-**Auditor:** Natalie Klaus
+**Auditor:** Natalie Klaus  
 **Date:** October 21, 2025  
 **Contract:** LiquidStaking.sol  
 **Commit Hash:** [Specify if applicable]  
