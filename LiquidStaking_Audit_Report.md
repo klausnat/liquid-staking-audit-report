@@ -103,34 +103,39 @@ function removeExpired() external {
 ```
 2. sETH/ETH Accounting Mismatch
 
-...
+@TODO...
 
 3. Insufficient Balance Validation
 
-...
+@TODO...
 
 4. Broken Heap Invariants
 
+@TODO
+
 5. Missing Access Controls
+
+@TODO
 
 ## Test Results
 
 Foundry Test Summary
-Test Category	Total Tests	Passed	Failed	Coverage
-Basic Staking	5	5	0	100%
-Withdrawal Processing	8	5	3	62.5%
-Access Control	4	4	0	100%
-Heap Operations	6	4	2	66.7%
-Total	23	18	5	78.3%
-Failed Tests Analysis
-bash
+
+@TODO
+table goes here...
 
 # Critical Test Failures
+
 [FAIL] test_RemoveExpired() - Arithmetic underflow in heap operations
+
 [FAIL] test_RemoveExpired_MixedRequests() - Index out of bounds
+
 [FAIL] test_Stake() - sETH balance calculation mismatch
+
 [FAIL] test_Stake_WithDifferentExchangeRate() - Exchange rate not applied
+
 [FAIL] test_WithdrawMoreThanStaked() - Missing balance validation
+
 
 Fuzzing Test Results
 
@@ -143,20 +148,23 @@ Fuzzing Test Results
     Gas Limit Exceeded: 134 cases on complex heap operations
 
 Formal Verification
+
 Kontrol Verification Status
-Property	Status	Proof Result
-Arithmetic Safety	❌ FAILED	Counterexamples found
-Access Control	✅ PASSED	All proofs verified
-Heap Integrity	⚠️ PARTIAL	Some properties hold
-Business Logic	❌ FAILED	Violations detected
-Kontrol Commands Executed
-bash
+
+@TODO
 
 # Build and prove
 kontrol build
+
 kontrol prove --test test_ProcessWithdrawals
+
 kontrol prove --test test_RemoveExpired
+
 kontrol view-kcfg
 
+
 # Symbolic execution results
+
 kontrol 
+
+@TODO
