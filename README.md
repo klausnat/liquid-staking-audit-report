@@ -54,7 +54,9 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
    4.3. Write report (https://github.com/klausnat/liquid-staking-audit-report/blob/main/LiquidStaking_Audit_Report.md) 
         with a table of contents and a list of all tests performed, errors found, and suggestions... with appendix where all results are printed. like the one we would provide for the code audit
 
-   4.5. There are about ![15 linting notes from Foundry's linter](https://github.com/klausnat/liquid-staking-audit-report/blob/main/screenshots/linting_notes_foundry.png). It is recommended to change code according to these lints, to follow Solidity best practices.
+   4.5. Linting notes from Foundry
+   
+    ![15 linting notes from Foundry's linter](https://github.com/klausnat/liquid-staking-audit-report/blob/main/screenshots/linting_notes_foundry.png). It is recommended to change code according to these lints, to follow Solidity best practices.
    
 
 5. Formal verification with Kontrol    
@@ -62,7 +64,8 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
    5.1. I left only 5 successfully passed tests (need to check them with kontrol)
    5.2. installed cheatcodes, added ast = true to my foundry.toml, then did kontrol build => ✅ Success! Kontrol project built 💪
 
-   kontrol found bug while in foundry this test passed successfully
+   Kontrol found bug while in Foundry this test passed successfully
+
    ![15 linting notes from Foundry's linter](https://github.com/klausnat/liquid-staking-audit-report/blob/main/screenshots/Revert_if_not_owner_Proof_failed.png)
 
    
