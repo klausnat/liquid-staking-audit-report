@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+// Only tests which PASS Foundry are listed here. 
+// Kontrol found bug (security vulnerability) in these tests
+// for test_UpdateExchangeRage_RevertIfNotOwner - Kontrol found that the contract could revert for different reasons.
+
 import "forge-std/Test.sol";
 import "../src/LiquidStaking.sol";
 
