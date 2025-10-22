@@ -59,10 +59,9 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
         with a table of contents and a list of all tests performed, errors found, and suggestions... with appendix.
 
    4.5. Linting notes from Foundry (include in report)
-   
-    https://github.com/klausnat/liquid-staking-audit-report/blob/main/screenshots/linting_notes_foundry.png
-    
-    Recommend in report to change code according to these lints, to follow Solidity best practices.
+  https://github.com/klausnat/liquid-staking-audit-report/blob/main/screenshots/linting_notes_foundry.png
+
+ Recommend in report to change code according to these lints, to follow Solidity best practices.
    
 ####  5. Formal verification with Kontrol    
 
