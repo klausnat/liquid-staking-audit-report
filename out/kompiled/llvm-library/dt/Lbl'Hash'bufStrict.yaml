@@ -1,0 +1,25 @@
+args:
+- - &id001 ['2']
+  - INT.Int
+- - &id002 ['1']
+  - INT.Int
+next:
+  default: null
+  specializations:
+  - - '1'
+    - action:
+      - 17080
+      - - - *id001
+          - INT.Int
+        - - *id002
+          - INT.Int
+    - []
+  - - '0'
+    - fail
+    - []
+  bitwidth: 1
+  sort: BOOL.Bool
+  occurrence: &id003 [side_condition_17080]
+function: side_condition_17080
+sort: BOOL.Bool
+occurrence: *id003

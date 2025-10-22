@@ -1,0 +1,29 @@
+default: fail
+specializations:
+- - LblAccessList'Unds'EVM-TYPES'Unds'TxType{}
+  - action:
+    - 17257
+    - []
+  - []
+- - LblBlob'Unds'EVM-TYPES'Unds'TxType{}
+  - action:
+    - 17258
+    - []
+  - []
+- - LblDynamicFee'Unds'EVM-TYPES'Unds'TxType{}
+  - action:
+    - 17259
+    - []
+  - []
+- - LblLegacy'Unds'EVM-TYPES'Unds'TxType{}
+  - action:
+    - 17260
+    - []
+  - []
+- - LblSetCode'Unds'EVM-TYPES'Unds'TxType{}
+  - action:
+    - 17261
+    - []
+  - []
+sort: STRING.String
+occurrence: ['1']

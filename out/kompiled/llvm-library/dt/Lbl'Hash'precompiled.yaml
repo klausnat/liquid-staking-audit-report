@@ -1,0 +1,113 @@
+args:
+- - &id001 ['1']
+  - INT.Int
+next:
+  default: fail
+  specializations:
+  - - '1'
+    - args:
+      - - *id001
+        - INT.Int
+      - - [lit, '0', MINT.MInt 64]
+        - MINT.MInt 64
+      next:
+        default: fail
+        specializations:
+        - - '12'
+          - action:
+            - 17413
+            - []
+          - []
+        - - '8'
+          - action:
+            - 17425
+            - []
+          - []
+        - - '4'
+          - action:
+            - 17421
+            - []
+          - []
+        - - '13'
+          - action:
+            - 17414
+            - []
+          - []
+        - - '16'
+          - action:
+            - 17417
+            - []
+          - []
+        - - '5'
+          - action:
+            - 17422
+            - []
+          - []
+        - - '10'
+          - action:
+            - 17411
+            - []
+          - []
+        - - '2'
+          - action:
+            - 17419
+            - []
+          - []
+        - - '7'
+          - action:
+            - 17424
+            - []
+          - []
+        - - '3'
+          - action:
+            - 17420
+            - []
+          - []
+        - - '15'
+          - action:
+            - 17416
+            - []
+          - []
+        - - '11'
+          - action:
+            - 17412
+            - []
+          - []
+        - - '9'
+          - action:
+            - 17426
+            - []
+          - []
+        - - '6'
+          - action:
+            - 17423
+            - []
+          - []
+        - - '1'
+          - action:
+            - 17410
+            - []
+          - []
+        - - '17'
+          - action:
+            - 17418
+            - []
+          - []
+        - - '14'
+          - action:
+            - 17415
+            - []
+          - []
+        bitwidth: 64
+        sort: MINT.MInt 64
+        occurrence: &id002 ['0', '1']
+      function: hook_INT_limb
+      sort: MINT.MInt 64
+      occurrence: *id002
+    - []
+  bitwidth: 32
+  sort: MINT.MInt 32
+  occurrence: &id003 [size, '1']
+function: hook_INT_size_int
+sort: MINT.MInt 32
+occurrence: *id003

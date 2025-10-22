@@ -1,0 +1,12 @@
+default: null
+specializations:
+- - Lbl'-LT-'mockCall'-GT-'{}
+  - action:
+    - 18210
+    - - - ['1', '1']
+        - STRING.String
+      - - ['0', '1']
+        - STRING.String
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

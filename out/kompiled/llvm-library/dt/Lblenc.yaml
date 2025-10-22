@@ -1,0 +1,816 @@
+default: null
+specializations:
+- - Lblabi'Unds'type'Unds'address{}
+  - action:
+    - 18628
+    - - - &id001 ['1']
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bool{}
+  - action:
+    - 18629
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes1{}
+  - action:
+    - 18630
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes10{}
+  - action:
+    - 18631
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes11{}
+  - action:
+    - 18632
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes12{}
+  - action:
+    - 18633
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes13{}
+  - action:
+    - 18634
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes14{}
+  - action:
+    - 18635
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes15{}
+  - action:
+    - 18636
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes16{}
+  - action:
+    - 18637
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes17{}
+  - action:
+    - 18638
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes18{}
+  - action:
+    - 18639
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes19{}
+  - action:
+    - 18640
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes2{}
+  - action:
+    - 18641
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes20{}
+  - action:
+    - 18642
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes21{}
+  - action:
+    - 18643
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes22{}
+  - action:
+    - 18644
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes23{}
+  - action:
+    - 18645
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes24{}
+  - action:
+    - 18646
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes25{}
+  - action:
+    - 18647
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes26{}
+  - action:
+    - 18648
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes27{}
+  - action:
+    - 18649
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes28{}
+  - action:
+    - 18650
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes29{}
+  - action:
+    - 18651
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes3{}
+  - action:
+    - 18652
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes30{}
+  - action:
+    - 18653
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes31{}
+  - action:
+    - 18654
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes32{}
+  - action:
+    - 18655
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes4{}
+  - action:
+    - 18656
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes5{}
+  - action:
+    - 18657
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes6{}
+  - action:
+    - 18658
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes7{}
+  - action:
+    - 18659
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes8{}
+  - action:
+    - 18660
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes9{}
+  - action:
+    - 18661
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int104{}
+  - action:
+    - 18662
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int112{}
+  - action:
+    - 18663
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int120{}
+  - action:
+    - 18664
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int128{}
+  - action:
+    - 18665
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int136{}
+  - action:
+    - 18666
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int144{}
+  - action:
+    - 18667
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int152{}
+  - action:
+    - 18668
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int16{}
+  - action:
+    - 18669
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int160{}
+  - action:
+    - 18670
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int168{}
+  - action:
+    - 18671
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int176{}
+  - action:
+    - 18672
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int184{}
+  - action:
+    - 18673
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int192{}
+  - action:
+    - 18674
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int200{}
+  - action:
+    - 18675
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int208{}
+  - action:
+    - 18676
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int216{}
+  - action:
+    - 18677
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int224{}
+  - action:
+    - 18678
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int232{}
+  - action:
+    - 18679
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int24{}
+  - action:
+    - 18680
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int240{}
+  - action:
+    - 18681
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int248{}
+  - action:
+    - 18682
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int256{}
+  - action:
+    - 18683
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int32{}
+  - action:
+    - 18684
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int40{}
+  - action:
+    - 18685
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int48{}
+  - action:
+    - 18686
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int56{}
+  - action:
+    - 18687
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int64{}
+  - action:
+    - 18688
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int72{}
+  - action:
+    - 18689
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int8{}
+  - action:
+    - 18690
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int80{}
+  - action:
+    - 18691
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int88{}
+  - action:
+    - 18692
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int96{}
+  - action:
+    - 18693
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint104{}
+  - action:
+    - 18694
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint112{}
+  - action:
+    - 18695
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint120{}
+  - action:
+    - 18696
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint128{}
+  - action:
+    - 18697
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint136{}
+  - action:
+    - 18698
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint144{}
+  - action:
+    - 18699
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint152{}
+  - action:
+    - 18700
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint16{}
+  - action:
+    - 18701
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint160{}
+  - action:
+    - 18702
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint168{}
+  - action:
+    - 18703
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint176{}
+  - action:
+    - 18704
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint184{}
+  - action:
+    - 18705
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint192{}
+  - action:
+    - 18706
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint200{}
+  - action:
+    - 18707
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint208{}
+  - action:
+    - 18708
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint216{}
+  - action:
+    - 18709
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint224{}
+  - action:
+    - 18710
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint232{}
+  - action:
+    - 18711
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint24{}
+  - action:
+    - 18712
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint240{}
+  - action:
+    - 18713
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint248{}
+  - action:
+    - 18714
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint256{}
+  - action:
+    - 18715
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint32{}
+  - action:
+    - 18716
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint40{}
+  - action:
+    - 18717
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint48{}
+  - action:
+    - 18718
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint56{}
+  - action:
+    - 18719
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint64{}
+  - action:
+    - 18720
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint72{}
+  - action:
+    - 18721
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint8{}
+  - action:
+    - 18722
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint80{}
+  - action:
+    - 18723
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint88{}
+  - action:
+    - 18724
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint96{}
+  - action:
+    - 18725
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'array{}
+  - action:
+    - 18726
+    - - - ['0', '1']
+        - STRING.String
+      - - ['2', '1']
+        - STRING.String
+      - - ['1', '1']
+        - INT.Int
+  - [STRING.String, INT.Int, STRING.String]
+- - Lblabi'Unds'type'Unds'bytes{}
+  - action:
+    - 18727
+    - - - ['0', '1']
+        - BYTES.Bytes
+  - [BYTES.Bytes]
+- - Lblabi'Unds'type'Unds'string{}
+  - action:
+    - 18728
+    - - - ['0', '1']
+        - STRING.String
+  - [STRING.String]
+- - Lblabi'Unds'type'Unds'tuple{}
+  - action:
+    - 18729
+    - - - ['0', '1']
+        - STRING.String
+  - [STRING.String]
+sort: STRING.String
+occurrence: *id001

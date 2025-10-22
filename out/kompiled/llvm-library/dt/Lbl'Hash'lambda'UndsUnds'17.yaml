@@ -1,0 +1,14 @@
+action:
+- 17330
+- - - ['1']
+    - INT.Int
+  - - ['4']
+    - INT.Int
+  - - ['3']
+    - INT.Int
+  - - ['2']
+    - BYTES.Bytes
+  - - ['6']
+    - INT.Int
+  - - ['5']
+    - INT.Int

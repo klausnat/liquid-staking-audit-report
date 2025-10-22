@@ -1,0 +1,1288 @@
+args:
+- - &id001 ['1']
+  - INT.Int
+next:
+  default: &id003
+    action:
+    - 17106
+    - - - &id002 ['2']
+        - STRING.String
+      - - *id001
+        - INT.Int
+  specializations:
+  - - '0'
+    - action:
+      - 17107
+      - - - *id002
+          - STRING.String
+    - []
+  - - '1'
+    - args:
+      - - *id001
+        - INT.Int
+      - - [lit, '0', MINT.MInt 64]
+        - MINT.MInt 64
+      next:
+        default: *id003
+        specializations:
+        - - '117'
+          - action:
+            - 17128
+            - - - *id002
+                - STRING.String
+          - []
+        - - '131'
+          - action:
+            - 17142
+            - - - *id002
+                - STRING.String
+          - []
+        - - '98'
+          - action:
+            - 17255
+            - - - *id002
+                - STRING.String
+          - []
+        - - '113'
+          - action:
+            - 17124
+            - - - *id002
+                - STRING.String
+          - []
+        - - '67'
+          - action:
+            - 17225
+            - - - *id002
+                - STRING.String
+          - []
+        - - '120'
+          - action:
+            - 17131
+            - - - *id002
+                - STRING.String
+          - []
+        - - '153'
+          - action:
+            - 17164
+            - - - *id002
+                - STRING.String
+          - []
+        - - '93'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17250
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id004 [side_condition_17250]
+            function: side_condition_17250
+            sort: BOOL.Bool
+            occurrence: *id004
+          - []
+        - - '158'
+          - action:
+            - 17169
+            - - - *id002
+                - STRING.String
+          - []
+        - - '142'
+          - action:
+            - 17153
+            - - - *id002
+                - STRING.String
+          - []
+        - - '147'
+          - action:
+            - 17158
+            - - - *id002
+                - STRING.String
+          - []
+        - - '66'
+          - action:
+            - 17224
+            - - - *id002
+                - STRING.String
+          - []
+        - - '89'
+          - action:
+            - 17245
+            - - - *id002
+                - STRING.String
+          - []
+        - - '51'
+          - action:
+            - 17208
+            - - - *id002
+                - STRING.String
+          - []
+        - - '8'
+          - action:
+            - 17235
+            - - - *id002
+                - STRING.String
+          - []
+        - - '73'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17233
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id005 [side_condition_17233]
+            function: side_condition_17233
+            sort: BOOL.Bool
+            occurrence: *id005
+          - []
+        - - '164'
+          - action:
+            - 17176
+            - - - *id002
+                - STRING.String
+          - []
+        - - '124'
+          - action:
+            - 17135
+            - - - *id002
+                - STRING.String
+          - []
+        - - '84'
+          - action:
+            - 17240
+            - - - *id002
+                - STRING.String
+          - []
+        - - '19'
+          - action:
+            - 17179
+            - - - *id002
+                - STRING.String
+          - []
+        - - '100'
+          - action:
+            - 17110
+            - - - *id002
+                - STRING.String
+          - []
+        - - '23'
+          - action:
+            - 17184
+            - - - *id002
+                - STRING.String
+          - []
+        - - '62'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17220
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id006 [side_condition_17220]
+            function: side_condition_17220
+            sort: BOOL.Bool
+            occurrence: *id006
+          - []
+        - - '135'
+          - action:
+            - 17146
+            - - - *id002
+                - STRING.String
+          - []
+        - - '128'
+          - action:
+            - 17139
+            - - - *id002
+                - STRING.String
+          - []
+        - - '4'
+          - action:
+            - 17203
+            - - - *id002
+                - STRING.String
+          - []
+        - - '121'
+          - action:
+            - 17132
+            - - - *id002
+                - STRING.String
+          - []
+        - - '88'
+          - action:
+            - 17244
+            - - - *id002
+                - STRING.String
+          - []
+        - - '110'
+          - action:
+            - 17121
+            - - - *id002
+                - STRING.String
+          - []
+        - - '141'
+          - action:
+            - 17152
+            - - - *id002
+                - STRING.String
+          - []
+        - - '139'
+          - action:
+            - 17150
+            - - - *id002
+                - STRING.String
+          - []
+        - - '132'
+          - action:
+            - 17143
+            - - - *id002
+                - STRING.String
+          - []
+        - - '11'
+          - action:
+            - 17120
+            - - - *id002
+                - STRING.String
+          - []
+        - - '104'
+          - action:
+            - 17114
+            - - - *id002
+                - STRING.String
+          - []
+        - - '90'
+          - action:
+            - 17247
+            - - - *id002
+                - STRING.String
+          - []
+        - - '9'
+          - action:
+            - 17246
+            - - - *id002
+                - STRING.String
+          - []
+        - - '250'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17193
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id007 [side_condition_17193]
+            function: side_condition_17193
+            sort: BOOL.Bool
+            occurrence: *id007
+          - []
+        - - '22'
+          - action:
+            - 17183
+            - - - *id002
+                - STRING.String
+          - []
+        - - '56'
+          - action:
+            - 17213
+            - - - *id002
+                - STRING.String
+          - []
+        - - '55'
+          - action:
+            - 17212
+            - - - *id002
+                - STRING.String
+          - []
+        - - '163'
+          - action:
+            - 17175
+            - - - *id002
+                - STRING.String
+          - []
+        - - '26'
+          - action:
+            - 17197
+            - - - *id002
+                - STRING.String
+          - []
+        - - '134'
+          - action:
+            - 17145
+            - - - *id002
+                - STRING.String
+          - []
+        - - '244'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17190
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id008 [side_condition_17190]
+            function: side_condition_17190
+            sort: BOOL.Bool
+            occurrence: *id008
+          - []
+        - - '50'
+          - action:
+            - 17207
+            - - - *id002
+                - STRING.String
+          - []
+        - - '123'
+          - action:
+            - 17134
+            - - - *id002
+                - STRING.String
+          - []
+        - - '68'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17226
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - args:
+                  - - *id002
+                    - STRING.String
+                  next:
+                    default: null
+                    specializations:
+                    - - '1'
+                      - action:
+                        - 17227
+                        - - - *id002
+                            - STRING.String
+                      - []
+                    - - '0'
+                      - *id003
+                      - []
+                    bitwidth: 1
+                    sort: BOOL.Bool
+                    occurrence: &id009 [side_condition_17227]
+                  function: side_condition_17227
+                  sort: BOOL.Bool
+                  occurrence: *id009
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id010 [side_condition_17226]
+            function: side_condition_17226
+            sort: BOOL.Bool
+            occurrence: *id010
+          - []
+        - - '242'
+          - action:
+            - 17188
+            - - - *id002
+                - STRING.String
+          - []
+        - - '61'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17219
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id011 [side_condition_17219]
+            function: side_condition_17219
+            sort: BOOL.Bool
+            occurrence: *id011
+          - []
+        - - '107'
+          - action:
+            - 17117
+            - - - *id002
+                - STRING.String
+          - []
+        - - '255'
+          - action:
+            - 17196
+            - - - *id002
+                - STRING.String
+          - []
+        - - '99'
+          - action:
+            - 17256
+            - - - *id002
+                - STRING.String
+          - []
+        - - '24'
+          - action:
+            - 17185
+            - - - *id002
+                - STRING.String
+          - []
+        - - '253'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17194
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id012 [side_condition_17194]
+            function: side_condition_17194
+            sort: BOOL.Bool
+            occurrence: *id012
+          - []
+        - - '155'
+          - action:
+            - 17166
+            - - - *id002
+                - STRING.String
+          - []
+        - - '94'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17251
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id013 [side_condition_17251]
+            function: side_condition_17251
+            sort: BOOL.Bool
+            occurrence: *id013
+          - []
+        - - '83'
+          - action:
+            - 17239
+            - - - *id002
+                - STRING.String
+          - []
+        - - '16'
+          - action:
+            - 17171
+            - - - *id002
+                - STRING.String
+          - []
+        - - '152'
+          - action:
+            - 17163
+            - - - *id002
+                - STRING.String
+          - []
+        - - '5'
+          - action:
+            - 17206
+            - - - *id002
+                - STRING.String
+          - []
+        - - '103'
+          - action:
+            - 17113
+            - - - *id002
+                - STRING.String
+          - []
+        - - '112'
+          - action:
+            - 17123
+            - - - *id002
+                - STRING.String
+          - []
+        - - '72'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17232
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id014 [side_condition_17232]
+            function: side_condition_17232
+            sort: BOOL.Bool
+            occurrence: *id014
+          - []
+        - - '10'
+          - action:
+            - 17109
+            - - - *id002
+                - STRING.String
+          - []
+        - - '159'
+          - action:
+            - 17170
+            - - - *id002
+                - STRING.String
+          - []
+        - - '59'
+          - action:
+            - 17216
+            - - - *id002
+                - STRING.String
+          - []
+        - - '144'
+          - action:
+            - 17155
+            - - - *id002
+                - STRING.String
+          - []
+        - - '87'
+          - action:
+            - 17243
+            - - - *id002
+                - STRING.String
+          - []
+        - - '48'
+          - action:
+            - 17204
+            - - - *id002
+                - STRING.String
+          - []
+        - - '21'
+          - action:
+            - 17182
+            - - - *id002
+                - STRING.String
+          - []
+        - - '116'
+          - action:
+            - 17127
+            - - - *id002
+                - STRING.String
+          - []
+        - - '138'
+          - action:
+            - 17149
+            - - - *id002
+                - STRING.String
+          - []
+        - - '54'
+          - action:
+            - 17211
+            - - - *id002
+                - STRING.String
+          - []
+        - - '148'
+          - action:
+            - 17159
+            - - - *id002
+                - STRING.String
+          - []
+        - - '127'
+          - action:
+            - 17138
+            - - - *id002
+                - STRING.String
+          - []
+        - - '65'
+          - action:
+            - 17223
+            - - - *id002
+                - STRING.String
+          - []
+        - - '71'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17231
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id015 [side_condition_17231]
+            function: side_condition_17231
+            sort: BOOL.Bool
+            occurrence: *id015
+          - []
+        - - '57'
+          - action:
+            - 17214
+            - - - *id002
+                - STRING.String
+          - []
+        - - '108'
+          - action:
+            - 17118
+            - - - *id002
+                - STRING.String
+          - []
+        - - '32'
+          - action:
+            - 17202
+            - - - *id002
+                - STRING.String
+          - []
+        - - '80'
+          - action:
+            - 17236
+            - - - *id002
+                - STRING.String
+          - []
+        - - '106'
+          - action:
+            - 17116
+            - - - *id002
+                - STRING.String
+          - []
+        - - '137'
+          - action:
+            - 17148
+            - - - *id002
+                - STRING.String
+          - []
+        - - '6'
+          - action:
+            - 17217
+            - - - *id002
+                - STRING.String
+          - []
+        - - '126'
+          - action:
+            - 17137
+            - - - *id002
+                - STRING.String
+          - []
+        - - '241'
+          - action:
+            - 17187
+            - - - *id002
+                - STRING.String
+          - []
+        - - '1'
+          - action:
+            - 17108
+            - - - *id002
+                - STRING.String
+          - []
+        - - '82'
+          - action:
+            - 17238
+            - - - *id002
+                - STRING.String
+          - []
+        - - '49'
+          - action:
+            - 17205
+            - - - *id002
+                - STRING.String
+          - []
+        - - '140'
+          - action:
+            - 17151
+            - - - *id002
+                - STRING.String
+          - []
+        - - '17'
+          - action:
+            - 17177
+            - - - *id002
+                - STRING.String
+          - []
+        - - '25'
+          - action:
+            - 17192
+            - - - *id002
+                - STRING.String
+          - []
+        - - '60'
+          - action:
+            - 17218
+            - - - *id002
+                - STRING.String
+          - []
+        - - '133'
+          - action:
+            - 17144
+            - - - *id002
+                - STRING.String
+          - []
+        - - '122'
+          - action:
+            - 17133
+            - - - *id002
+                - STRING.String
+          - []
+        - - '111'
+          - action:
+            - 17122
+            - - - *id002
+                - STRING.String
+          - []
+        - - '102'
+          - action:
+            - 17112
+            - - - *id002
+                - STRING.String
+          - []
+        - - '162'
+          - action:
+            - 17174
+            - - - *id002
+                - STRING.String
+          - []
+        - - '151'
+          - action:
+            - 17162
+            - - - *id002
+                - STRING.String
+          - []
+        - - '245'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17191
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id016 [side_condition_17191]
+            function: side_condition_17191
+            sort: BOOL.Bool
+            occurrence: *id016
+          - []
+        - - '95'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17252
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id017 [side_condition_17252]
+            function: side_condition_17252
+            sort: BOOL.Bool
+            occurrence: *id017
+          - []
+        - - '96'
+          - action:
+            - 17253
+            - - - *id002
+                - STRING.String
+          - []
+        - - '69'
+          - action:
+            - 17228
+            - - - *id002
+                - STRING.String
+          - []
+        - - '58'
+          - action:
+            - 17215
+            - - - *id002
+                - STRING.String
+          - []
+        - - '145'
+          - action:
+            - 17156
+            - - - *id002
+                - STRING.String
+          - []
+        - - '64'
+          - action:
+            - 17222
+            - - - *id002
+                - STRING.String
+          - []
+        - - '53'
+          - action:
+            - 17210
+            - - - *id002
+                - STRING.String
+          - []
+        - - '115'
+          - action:
+            - 17126
+            - - - *id002
+                - STRING.String
+          - []
+        - - '156'
+          - action:
+            - 17167
+            - - - *id002
+                - STRING.String
+          - []
+        - - '109'
+          - action:
+            - 17119
+            - - - *id002
+                - STRING.String
+          - []
+        - - '149'
+          - action:
+            - 17160
+            - - - *id002
+                - STRING.String
+          - []
+        - - '20'
+          - action:
+            - 17181
+            - - - *id002
+                - STRING.String
+          - []
+        - - '27'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17198
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id018 [side_condition_17198]
+            function: side_condition_17198
+            sort: BOOL.Bool
+            occurrence: *id018
+          - []
+        - - '70'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17230
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id019 [side_condition_17230]
+            function: side_condition_17230
+            sort: BOOL.Bool
+            occurrence: *id019
+          - []
+        - - '2'
+          - action:
+            - 17180
+            - - - *id002
+                - STRING.String
+          - []
+        - - '86'
+          - action:
+            - 17242
+            - - - *id002
+                - STRING.String
+          - []
+        - - '81'
+          - action:
+            - 17237
+            - - - *id002
+                - STRING.String
+          - []
+        - - '160'
+          - action:
+            - 17172
+            - - - *id002
+                - STRING.String
+          - []
+        - - '118'
+          - action:
+            - 17129
+            - - - *id002
+                - STRING.String
+          - []
+        - - '92'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17249
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id020 [side_condition_17249]
+            function: side_condition_17249
+            sort: BOOL.Bool
+            occurrence: *id020
+          - []
+        - - '125'
+          - action:
+            - 17136
+            - - - *id002
+                - STRING.String
+          - []
+        - - '18'
+          - action:
+            - 17178
+            - - - *id002
+                - STRING.String
+          - []
+        - - '101'
+          - action:
+            - 17111
+            - - - *id002
+                - STRING.String
+          - []
+        - - '154'
+          - action:
+            - 17165
+            - - - *id002
+                - STRING.String
+          - []
+        - - '7'
+          - action:
+            - 17229
+            - - - *id002
+                - STRING.String
+          - []
+        - - '143'
+          - action:
+            - 17154
+            - - - *id002
+                - STRING.String
+          - []
+        - - '97'
+          - action:
+            - 17254
+            - - - *id002
+                - STRING.String
+          - []
+        - - '130'
+          - action:
+            - 17141
+            - - - *id002
+                - STRING.String
+          - []
+        - - '114'
+          - action:
+            - 17125
+            - - - *id002
+                - STRING.String
+          - []
+        - - '129'
+          - action:
+            - 17140
+            - - - *id002
+                - STRING.String
+          - []
+        - - '29'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17200
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id021 [side_condition_17200]
+            function: side_condition_17200
+            sort: BOOL.Bool
+            occurrence: *id021
+          - []
+        - - '240'
+          - action:
+            - 17186
+            - - - *id002
+                - STRING.String
+          - []
+        - - '105'
+          - action:
+            - 17115
+            - - - *id002
+                - STRING.String
+          - []
+        - - '150'
+          - action:
+            - 17161
+            - - - *id002
+                - STRING.String
+          - []
+        - - '3'
+          - action:
+            - 17201
+            - - - *id002
+                - STRING.String
+          - []
+        - - '74'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17234
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id022 [side_condition_17234]
+            function: side_condition_17234
+            sort: BOOL.Bool
+            occurrence: *id022
+          - []
+        - - '243'
+          - action:
+            - 17189
+            - - - *id002
+                - STRING.String
+          - []
+        - - '63'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17221
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id023 [side_condition_17221]
+            function: side_condition_17221
+            sort: BOOL.Bool
+            occurrence: *id023
+          - []
+        - - '254'
+          - action:
+            - 17195
+            - - - *id002
+                - STRING.String
+          - []
+        - - '91'
+          - action:
+            - 17248
+            - - - *id002
+                - STRING.String
+          - []
+        - - '52'
+          - action:
+            - 17209
+            - - - *id002
+                - STRING.String
+          - []
+        - - '85'
+          - action:
+            - 17241
+            - - - *id002
+                - STRING.String
+          - []
+        - - '28'
+          - args:
+            - - *id002
+              - STRING.String
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 17199
+                  - - - *id002
+                      - STRING.String
+                - []
+              - - '0'
+                - *id003
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id024 [side_condition_17199]
+            function: side_condition_17199
+            sort: BOOL.Bool
+            occurrence: *id024
+          - []
+        - - '119'
+          - action:
+            - 17130
+            - - - *id002
+                - STRING.String
+          - []
+        - - '161'
+          - action:
+            - 17173
+            - - - *id002
+                - STRING.String
+          - []
+        - - '136'
+          - action:
+            - 17147
+            - - - *id002
+                - STRING.String
+          - []
+        - - '157'
+          - action:
+            - 17168
+            - - - *id002
+                - STRING.String
+          - []
+        - - '146'
+          - action:
+            - 17157
+            - - - *id002
+                - STRING.String
+          - []
+        bitwidth: 64
+        sort: MINT.MInt 64
+        occurrence: &id025 ['0', '1']
+      function: hook_INT_limb
+      sort: MINT.MInt 64
+      occurrence: *id025
+    - []
+  bitwidth: 32
+  sort: MINT.MInt 32
+  occurrence: &id026 [size, '1']
+function: hook_INT_size_int
+sort: MINT.MInt 32
+occurrence: *id026

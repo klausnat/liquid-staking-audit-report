@@ -1,0 +1,47 @@
+default: null
+specializations:
+- - Lblcontract'Unds'access'Unds'field{}
+  - default: null
+    specializations:
+    - - inj{SortFoundryField{}, SortField{}}
+      - default: null
+        specializations:
+        - - Lblslot'Unds'failed{}
+          - default: fail
+            specializations:
+            - - inj{SortFoundryContract{}, SortContractAccess{}}
+              - default: fail
+                specializations:
+                - - Lblcontract'Unds'FoundryCheat{}
+                  - action:
+                    - 18619
+                    - []
+                  - []
+                sort: STRING.String
+                occurrence: ['0', '0', '1']
+              - [STRING.String]
+            sort: STRING.String
+            occurrence: ['0', '1']
+          - []
+        sort: STRING.String
+        occurrence: ['0', '1', '1']
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['1', '1']
+  - [STRING.String, STRING.String]
+- - Lblcontract'Unds'access'Unds'index{}
+  - action:
+    - 18620
+    - - - ['0', '1']
+        - STRING.String
+      - - ['1', '1']
+        - INT.Int
+  - [STRING.String, INT.Int]
+- - inj{SortFoundryContract{}, SortContractAccess{}}
+  - action:
+    - 18621
+    - - - &id001 ['1']
+        - STRING.String
+  - [STRING.String]
+sort: STRING.String
+occurrence: *id001

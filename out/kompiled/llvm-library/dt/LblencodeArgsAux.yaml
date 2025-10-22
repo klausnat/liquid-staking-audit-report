@@ -1,0 +1,73 @@
+default: null
+specializations:
+- - Lbl'Stop'List'LBraQuot'typedArgs'QuotRBra'{}
+  - action:
+    - 18732
+    - - - &id003 ['2']
+        - INT.Int
+      - - &id002 ['3']
+        - BYTES.Bytes
+      - - &id004 ['4']
+        - BYTES.Bytes
+  - []
+- - LbltypedArgs{}
+  - args:
+    - - &id001 ['0', '1']
+      - STRING.String
+    next:
+      default: null
+      specializations:
+      - - '1'
+        - action:
+          - 18733
+          - - - *id001
+              - STRING.String
+            - - &id005 ['1', '1']
+              - STRING.String
+            - - *id002
+              - BYTES.Bytes
+            - - *id003
+              - INT.Int
+            - - *id004
+              - BYTES.Bytes
+        - []
+      - - '0'
+        - args:
+          - - *id001
+            - STRING.String
+          next:
+            default: null
+            specializations:
+            - - '1'
+              - action:
+                - 18734
+                - - - *id001
+                    - STRING.String
+                  - - *id005
+                    - STRING.String
+                  - - *id002
+                    - BYTES.Bytes
+                  - - *id003
+                    - INT.Int
+                  - - *id004
+                    - BYTES.Bytes
+              - []
+            - - '0'
+              - fail
+              - []
+            bitwidth: 1
+            sort: BOOL.Bool
+            occurrence: &id006 [side_condition_18734]
+          function: side_condition_18734
+          sort: BOOL.Bool
+          occurrence: *id006
+        - []
+      bitwidth: 1
+      sort: BOOL.Bool
+      occurrence: &id007 [side_condition_18733]
+    function: side_condition_18733
+    sort: BOOL.Bool
+    occurrence: *id007
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

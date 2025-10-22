@@ -1,0 +1,31 @@
+default: null
+specializations:
+- - Lbl'Stop'List'LBraQuot'eventArgs'QuotRBra'{}
+  - action:
+    - 18766
+    - []
+  - []
+- - LbleventArgs{}
+  - default: null
+    specializations:
+    - - Lblindexed{}
+      - action:
+        - 18767
+        - - - ['0', '0', '1']
+            - STRING.String
+          - - &id001 ['1', '1']
+            - STRING.String
+      - [STRING.String]
+    - - inj{SortTypedArg{}, SortEventArg{}}
+      - action:
+        - 18768
+        - - - ['0', '0', '1']
+            - STRING.String
+          - - *id001
+            - STRING.String
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

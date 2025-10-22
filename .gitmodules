@@ -1,0 +1,3 @@
+[submodule "lib/kontrol-cheatcodes"]
+	path = lib/kontrol-cheatcodes
+	url = https://github.com/runtimeverification/kontrol-cheatcodes

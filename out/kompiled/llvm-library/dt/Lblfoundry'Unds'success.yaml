@@ -1,0 +1,74 @@
+default: &id001
+  action:
+  - 18747
+  - - - &id003 ['1']
+      - STRING.String
+    - - &id002 ['2']
+      - INT.Int
+    - - &id005 ['3']
+      - BOOL.Bool
+    - - &id006 ['4']
+      - BOOL.Bool
+    - - &id007 ['5']
+      - BOOL.Bool
+    - - &id008 ['6']
+      - BOOL.Bool
+specializations:
+- - '0'
+  - default: *id001
+    specializations:
+    - - '0'
+      - default: *id001
+        specializations:
+        - - '0'
+          - default: *id001
+            specializations:
+            - - '0'
+              - args:
+                - - *id002
+                  - INT.Int
+                next:
+                  default: *id001
+                  specializations:
+                  - - '0'
+                    - default: *id001
+                      specializations:
+                      - - inj{SortEndStatusCode{}, SortStatusCode{}}
+                        - default: *id001
+                          specializations:
+                          - - LblEVMC'Unds'SUCCESS'Unds'NETWORK'Unds'EndStatusCode{}
+                            - action:
+                              - 18748
+                              - []
+                            - []
+                          sort: STRING.String
+                          occurrence: ['0', '1']
+                        - [STRING.String]
+                      - - inj{SortExceptionalStatusCode{}, SortStatusCode{}}
+                        - *id001
+                        - [STRING.String]
+                      sort: STRING.String
+                      occurrence: *id003
+                    - []
+                  bitwidth: 32
+                  sort: MINT.MInt 32
+                  occurrence: &id004 [size, '2']
+                function: hook_INT_size_int
+                sort: MINT.MInt 32
+                occurrence: *id004
+              - []
+            bitwidth: 1
+            sort: BOOL.Bool
+            occurrence: *id005
+          - []
+        bitwidth: 1
+        sort: BOOL.Bool
+        occurrence: *id006
+      - []
+    bitwidth: 1
+    sort: BOOL.Bool
+    occurrence: *id007
+  - []
+bitwidth: 1
+sort: BOOL.Bool
+occurrence: *id008

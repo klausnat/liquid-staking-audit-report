@@ -1,0 +1,24 @@
+{
+    "methods": {
+        "test%LiquidStakingTest.test_UpdateExchangeRate()": {
+            "method": "4d8d8bd2d960933b729bfd444e5320f5f123fa29f10d4b336de43a153ca0bbe3",
+            "contract": "2c5fc96966550913d2b2c9fd138fe797de80758f28206b2ed8850fb191cb3f7c"
+        },
+        "test%LiquidStakingTest.test_UpdateExchangeRate_RevertIfZero()": {
+            "method": "5cc2a11ba70a4eac93b9a499a4bfaa4f3f32bdfa13633a30138132972e9ee4c7",
+            "contract": "2c5fc96966550913d2b2c9fd138fe797de80758f28206b2ed8850fb191cb3f7c"
+        },
+        "test%LiquidStakingTest.test_UpdateExchangeRate_RevertIfNotOwner()": {
+            "method": "4d9e9455229685339c5910655d24953fdfd04fe583e5ce4043171c3b7ab36732",
+            "contract": "2c5fc96966550913d2b2c9fd138fe797de80758f28206b2ed8850fb191cb3f7c"
+        },
+        "test%LiquidStakingTest.setUp()": {
+            "method": "c16861be4c74e319bc81a67aeae96278a1d597746a60985bfdf6c4893936e119",
+            "contract": "2c5fc96966550913d2b2c9fd138fe797de80758f28206b2ed8850fb191cb3f7c"
+        }
+    },
+    "kompilation": "6b0a166e04ef8679f90178936392bea021369a91759c369c337dbed1be0e61fe",
+    "kontrol": "1.0.204",
+    "build-options": "997e151508507f56beff1314af125fd7b46848dce33055e5dd07be3a52f11263",
+    "foundry": "c1c9443da60c7dfd4a5e58348ce105f4bb6ac2fae79e20db0f4cda67d80b2bda"
+}

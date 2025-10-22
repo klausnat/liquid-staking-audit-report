@@ -1,0 +1,59 @@
+default: fail
+specializations:
+- - LblMerkleBranch{}
+  - args:
+    - - &id001 ['2']
+      - BYTES.Bytes
+    next:
+      default: null
+      specializations:
+      - - '1'
+        - action:
+          - 17362
+          - - - &id002 ['3']
+              - STRING.String
+            - - &id003 ['0', '1']
+              - MAP.Map
+            - - *id001
+              - BYTES.Bytes
+            - - &id004 ['1', '1']
+              - STRING.String
+        - []
+      - - '0'
+        - args:
+          - - *id001
+            - BYTES.Bytes
+          next:
+            default: null
+            specializations:
+            - - '1'
+              - action:
+                - 17363
+                - - - *id002
+                    - STRING.String
+                  - - *id003
+                    - MAP.Map
+                  - - *id001
+                    - BYTES.Bytes
+                  - - *id004
+                    - STRING.String
+              - []
+            - - '0'
+              - fail
+              - []
+            bitwidth: 1
+            sort: BOOL.Bool
+            occurrence: &id005 [side_condition_17363]
+          function: side_condition_17363
+          sort: BOOL.Bool
+          occurrence: *id005
+        - []
+      bitwidth: 1
+      sort: BOOL.Bool
+      occurrence: &id006 [side_condition_17362]
+    function: side_condition_17362
+    sort: BOOL.Bool
+    occurrence: *id006
+  - [MAP.Map, STRING.String]
+sort: STRING.String
+occurrence: ['1']
