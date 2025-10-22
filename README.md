@@ -80,7 +80,6 @@ function requestWithdraw(uint256 amountETH, uint256 deadline) external {
 
    But Kontrol proved there are other execution paths where the call could revert for different reasons (or no reason)
 
-** kontrol output **
 
     - EVMC_REVERT: The transaction reverted
 
@@ -126,4 +125,8 @@ function initialize(uint256 initialExchangeRate, bool initialExitFeeEnabled) ext
 }
 ```
 
-   
+Kontrol helped to find security vulnerability: Anyone can deploy the contract and set ANY initial exchange rate and exit fee status, bypassing all validation rules.
+
+This should be mentioned in report.
+
+Stopping here, run out of allowed 10 hours. Kontrol is powerful indeed.
