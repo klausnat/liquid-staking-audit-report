@@ -1,7 +1,7 @@
 ---
 title: "Smart Contract Security Audit Report"
-author: "Your Name"
-date: "2024-01-15"
+author: "Natalie Klaus"
+date: "2025-10-22"
 subject: "LiquidStaking Contract Security Assessment"
 keywords: [Blockchain, Security, Audit, Solidity, Foundry, Kontrol]
 ---
